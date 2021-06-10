@@ -74,15 +74,11 @@ $(()=>{
         $(".point").css("margin-left", "20px");
         $(".centr").css("border-radius", "5px 0px 0px 5px");
         $(".var-2").css("border-radius", "0px 5px 5px 0px");
-        $(".var-2").css("background-color", "#fff");
-        $(".var-1").css("background-color", "#bfcee0");
         switcher_value = $(".var-2").text();
       } else {
         $(".point").css("margin-left", "-3px");
         $(".centr").css("border-radius", "0px 5px 5px 0px");
         $(".var-1").css("border-radius", "5px 0px 0px 5px");
-        $(".var-1").css("background-color", "#fff");
-        $(".var-2").css("background-color", "#bfcee0");
         switcher_value = $(".var-1").text();
       }
       save_all()
@@ -103,17 +99,4 @@ $(()=>{
       switcher = true;
       setSwitch(switcher);
     });
-    
-
-
-
-
-
-
-
-
-
-
-
 })
-
